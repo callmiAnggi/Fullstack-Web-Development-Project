@@ -1,0 +1,23 @@
+.pageAbout{
+    background :url(https://media.ktvb.com/assets/KTVB/images/0673da6e-4670-496c-a39a-bc075450893a/0673da6e-4670-496c-a39a-bc075450893a_1140x641.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.titleAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+.contentAbout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+}

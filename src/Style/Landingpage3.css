@@ -1,0 +1,168 @@
+.navpage2{
+    background-color:white;
+    display:flex;
+    color: blueviolet;
+}
+
+.container-Bi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color:white;
+    margin-bottom: 10px;
+}
+.wraper-Bi{
+    width: 600px;
+    height:100%;
+    background-color:brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.information-Bi {
+    width: 100%;
+    height: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    text-shadow: 2px, 2px black;
+    letter-spacing: 5px;
+    
+}
+.container-Bi img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+.wraper-data {
+    width: 200px;
+    height: auto;
+    background-color:aqua;
+    color: black;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    background: transparent;
+    border: 2px solid brown;
+    backdrop-filter: blur(9px);
+    
+}
+.wraper-data img{
+    width: 100%;
+    height: 130px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+}
+.wraper-data .image-data{
+    overflow-wrap: break-word;
+    color : brown;
+    margin-left: 10px;
+}
+.wraper-data .name-data {
+    font-size: 20px;
+    font-weight: 700;
+}
+.wraper-data .data-text{
+    font-variant: small-caps;
+    font-size: 12px;
+    font-weight: 400;
+    overflow-wrap: break-word;
+}
+.profile{
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myList div{
+    display: flex;
+    flex-direction:row;
+    width : 600px;
+    height: 200px;
+    margin:10px 10px;
+}
+.myList .profile {
+    width : 600px;
+    height: 200px;
+    margin:10px 10px;
+    background-color: aquamarine;
+}
+.myList img{
+    max-width:100%;
+    max-height: 100%;
+}
+.Add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:85vh;
+}
+.Add div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddPage {
+    background: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.table-1{
+    width: 95%;
+    margin-left: 30px;
+    border : 1px solid #ffffff4d;
+}
+.header{
+    background-color:indianred;
+    margin-top: 20px;
+}
+.content {
+    height: 170px;
+    border : 1px solid indianred;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    table-layout:fixed;
+}
+th {
+    color :#fff;
+    padding : 10px 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+td {
+    color : black;
+    padding : 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: inset 0 0 10px #0000004d;
+}
